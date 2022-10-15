@@ -4,7 +4,9 @@ export default function PageHeader(props) {
     <>
       <Card>
         <Card.Body>
-          <Card.Title>{props.text}</Card.Title>
+          <h5>
+            <strong>{props.text}</strong>
+          </h5>
         </Card.Body>
       </Card>
       <br />
