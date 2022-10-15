@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Card from 'react-bootstrap/Card';
+import { Card } from 'react-bootstrap';
 import MovieDetails from '../components/MovieDetails';
 import PageHeader from '../components/PageHeader';
 
@@ -42,7 +42,7 @@ export default function About(props) {
             Hi I am Muhammad. This is a short into to me and this project. I like ice cream. This site is supposed to be
             a moview database that fetches data from a REST API and renders it in a GUI. I am still in progress of
             making this. Here is just the JSON data of one movie, so you can see what I am working with:{' '}
-            <Link href={'https://movie-api.cyclic.app/api/movies/573a139af29313caabcf075d'}>The Avengers</Link>
+            <Link href='https://movie-api.cyclic.app/api/movies/573a139af29313caabcf075d'>The Avengers</Link>
           </p>
         </Card.Body>
         <MovieDetails movie={props.staticMovie} />

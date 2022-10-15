@@ -22,7 +22,7 @@ export default function MovieDetails(props) {
               {props.movie.fullplot}
               <br />
               <br />
-              <strong>Cast:</strong> {props.movie.cast.length > 0 ? props.movie.cast.join(', ') : noValue}
+              <strong>Cast:</strong> {props.movie.cast.length > 0 ? props.movie.cast.join(', ') : 'noValue'}
               <br />
               <br />
               <strong>Awards:</strong> {props.movie.awards.text}
